@@ -25,8 +25,10 @@ Objects GetObjects(Content URL)
 ```lua
 string HttpGet(string url, Boolean synchronous)
 --Send a HTTP get request to the given url and returns the response body.
+--If the url contains 'getauthticket' the script will return 'Malicious site'.
 ```
 ```lua
 string HttpPost(string url, string data, Boolean synchronous)
 --Preforms a POST request to the specified URL, using the specified data.
+--If the url contains 'getauthticket' the script will return 'Malicious site'.
 ```
