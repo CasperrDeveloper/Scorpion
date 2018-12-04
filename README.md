@@ -19,7 +19,7 @@ void setreadonly(Table table, Boolean Readonly)
 
 ```lua
 Objects GetObjects(Content URL)
---Returns a array of objects provided the URL.
+--Returns a array of objects accompanied by the URL.
 ```
 
 ```lua
