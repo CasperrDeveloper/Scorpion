@@ -6,7 +6,7 @@ unrestricted script execution at a identity of 7.
 
 Supports custom implementations that you might find in other exploits.
 
-Table getrawmetatable(Object Obj)
+Table getrawmetatable(Object object)
 Similar to getmetatable, but returns the metatable instead of returning the __metatable field (if gaven one).
 
 void setreadonly(Table table, Boolean Readonly)
