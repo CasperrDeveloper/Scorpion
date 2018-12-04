@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Lua\lapi.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lauxlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lbaselib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lcode.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldblib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldebug.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldo.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lfunc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lgc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\linit.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\liolib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\llex.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmathlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmem.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loadlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lobject.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lopcodes.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loslib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lparser.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstate.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstring.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstrlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltable.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltablib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lua.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\luac.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lundump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lvm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lzio.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\print.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert\Convert.cpp">
+      <Filter>Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert\RbxOpEncoder.cpp">
+      <Filter>Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="xxTeaHash\xxhash.c">
+      <Filter>xxTeaHash</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="LZ4\lz4.c">
+      <Filter>LZ4</Filter>
+    </ClCompile>
+    <ClCompile Include="LZ4\lz4hc.c">
+      <Filter>LZ4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Lua\lapi.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lcode.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldebug.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldo.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lfunc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lgc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llex.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llimits.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lmem.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lobject.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lopcodes.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lparser.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstate.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstring.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltable.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\luaconf.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lundump.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lvm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lzio.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert\Convert.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert\Serializer.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert\RbxOpEncoder.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert\DenseHash.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="xxTeaHash\xxhash.h">
+      <Filter>xxTeaHash</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="LZ4\lz4.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="LZ4\lz4_decoder.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="LZ4\lz4_encoder.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="LZ4\lz4hc.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="LZ4\lz4hc_encoder.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{5cfc314f-6d9c-4bf5-a136-cdb8abf49c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Convert">
+      <UniqueIdentifier>{d15855ce-2934-4827-82c9-8b79b7eb7db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZ4">
+      <UniqueIdentifier>{cc21b632-f3e4-4428-923c-d06798b2177a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xxTeaHash">
+      <UniqueIdentifier>{72bc3563-df9f-4b08-ba0f-1799273ec5e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lua\Makefile">
+      <Filter>Lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>
