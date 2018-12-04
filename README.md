@@ -12,7 +12,7 @@ Table getrawmetatable(Object object)
 ```
 
 ```lua
-void setreadonly(Table table, Boolean Readonly)
+void setreadonly(Table table, bool Readonly)
 --Sets the readonly value of the table, if the table is readonly, and you attempt to modify it,
 --it will error "Attempt to modify a readonly table" if you are trying to modify a readonly table.
 ```
@@ -23,12 +23,12 @@ Objects GetObjects(Content URL)
 ```
 
 ```lua
-string HttpGet(string url, Boolean synchronous)
+string HttpGet(string url, bool synchronous)
 --Send a HTTP get request to the given url and returns the response body.
 --If the url contains 'getauthticket' the script will return 'Malicious site'.
 ```
 ```lua
-string HttpPost(string url, string data, Boolean synchronous)
+string HttpPost(string url, string data, bool synchronous)
 --Preforms a POST request to the specified URL, using the specified data.
 --If the url contains 'getauthticket' the script will return 'Malicious site'.
 ```
