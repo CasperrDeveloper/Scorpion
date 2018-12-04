@@ -2,7 +2,7 @@
 
 
 This is Scorpion. A exploit that converts vanilla bytecode to ROBLOX bytecode achieving 
-unrestricted script execution at a identity of 7. 
+unrestricted script execution and executes scripts at a identity of 7.
 
 Supports custom implementations that you might find in other exploits.
 
