@@ -16,8 +16,8 @@ it will error "Attempt to modify a readonly table" if you are trying to modify a
 Objects GetObjects(Content URL)
 Returns a array of objects provided the URL.
 
-string HttpGet(string url, bool synchronous)
+string HttpGet(string url, Boolean synchronous)
 Send a HTTP get request to the given url and returns the response body.
 
-string HttpPost(string url, string data, bool synchronous)
+string HttpPost(string url, string data, Boolean synchronous)
 Preforms a POST request to the specified URL, using the specified data.
