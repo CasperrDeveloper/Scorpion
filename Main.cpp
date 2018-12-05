@@ -12,6 +12,7 @@ auto r_lua_pushcclosure = (void(__fastcall*)(int, void*, int))Retcheck::unprotec
 auto r_lua_setfield = (void(__cdecl*)(int, int, const char*))Retcheck::unprotect<DWORD>((BYTE*)(ASLR(0x77FDF0)));
 auto r_lua_pushnil = (void(__cdecl*)(int))Retcheck::unprotect<DWORD>((BYTE*)(ASLR(0x77F2B0)));
 auto r_index2adr = (DWORD*(__cdecl*)(int, signed int))Retcheck::unprotect<DWORD>((BYTE*)ASLR(0x775830));
+auto r_lua_pushboolean = (void(__cdecl*)(int, bool))Retcheck::unprotect<DWORD>((BYTE*)ASLR(0x77EE90));
 
 static int GetRawMetatable_Implementation(unsigned int rL) {
 	if (!r_lua_getmetatable(rL, -1)) {
@@ -23,6 +24,11 @@ static int GetRawMetatable_Implementation(unsigned int rL) {
 
 static int SetReadOnly_Implemention(unsigned int rL) {
 	*(BYTE *)(*r_index2adr(rL, -1) + 8) = 0;
+	return 1;
+}
+
+static int CheckCaller_Implementation(unsigned int rL) {
+	r_lua_pushboolean(rL, true);
 	return 1;
 }
 
@@ -42,6 +48,9 @@ int Main(int, char*[]) {
 
 	r_lua_pushcclosure(rL, SetReadOnly_Implemention, 0);
 	r_lua_setfield(rL, -10002, "setreadonly");
+	
+	r_lua_pushcclosure(rL, CheckCaller_Implementation, 0);
+	r_lua_setfield(rL, -10002, "checkcaller");
 
 	ExecuteScript(rL, DownloadURL("https://pastebin.com/raw/DdEKj90i").c_str());
 
