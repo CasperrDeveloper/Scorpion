@@ -35,5 +35,5 @@ string HttpPost(string url, string data, bool synchronous)
 
 ```lua
 bool checkcaller(None)
---Returns true if the script is being ran by Scorpion
+--Returns true if the script is being ran by Scorpion.
 ```
