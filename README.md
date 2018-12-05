@@ -32,3 +32,8 @@ string HttpPost(string url, string data, bool synchronous)
 --Preforms a POST request to the specified URL, using the specified data.
 --If the url contains 'getauthticket' the script will return 'Malicious site'.
 ```
+
+```lua
+bool checkcaller(None)
+--Returns true if the script is being ran by Scorpion
+```
